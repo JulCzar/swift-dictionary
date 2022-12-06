@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kHE-Sr-byS">
+                                <rect key="frame" x="0.0" y="246" width="414" height="414"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dictionary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e16-6x-2HL">
+                                        <rect key="frame" x="128.5" y="269" width="157" height="43"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="character.book.closed.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="rc1-Fx-rzk">
+                                        <rect key="frame" x="161" y="161" width="92" height="92"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="92" id="0ni-J4-nqe"/>
+                                            <constraint firstAttribute="height" constant="92" id="AjD-74-nlg"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="e16-6x-2HL" firstAttribute="top" secondItem="rc1-Fx-rzk" secondAttribute="bottomMargin" constant="24" id="2yO-FA-LMc"/>
+                                    <constraint firstItem="rc1-Fx-rzk" firstAttribute="centerX" secondItem="kHE-Sr-byS" secondAttribute="centerX" id="45S-s3-Ei6"/>
+                                    <constraint firstItem="e16-6x-2HL" firstAttribute="centerX" secondItem="kHE-Sr-byS" secondAttribute="centerX" id="fYo-Bk-aEG"/>
+                                    <constraint firstItem="rc1-Fx-rzk" firstAttribute="centerY" secondItem="kHE-Sr-byS" secondAttribute="centerY" id="oGV-yb-mi8"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="Primary"/>
+                        <constraints>
+                            <constraint firstItem="kHE-Sr-byS" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="width" id="EIZ-aP-oHz"/>
+                            <constraint firstItem="kHE-Sr-byS" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="qLo-gd-Jte"/>
+                            <constraint firstItem="kHE-Sr-byS" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="wdl-aX-0Sy"/>
+                            <constraint firstItem="kHE-Sr-byS" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ysC-wu-jko"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="character.book.closed.fill" catalog="system" width="115" height="128"/>
+        <namedColor name="Primary">
+            <color red="0.88627450980392153" green="0.11764705882352941" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
