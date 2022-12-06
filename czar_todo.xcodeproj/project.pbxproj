@@ -131,7 +131,7 @@
 		571CCC7428F58CAE004BA945 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				73C70000293EDCA6009CC2B3 /* components */,
+				73C70000293EDCA6009CC2B3 /* widgets */,
 				57524159291A879F00538D32 /* models */,
 				57EB9BCD29081C0C006623C0 /* services */,
 				571CCC7828F58D23004BA945 /* storyboards */,
@@ -184,12 +184,12 @@
 			path = cell;
 			sourceTree = "<group>";
 		};
-		73C70000293EDCA6009CC2B3 /* components */ = {
+		73C70000293EDCA6009CC2B3 /* widgets */ = {
 			isa = PBXGroup;
 			children = (
 				57F3B22329396CB100CF68F5 /* cell */,
 			);
-			path = components;
+			path = widgets;
 			sourceTree = "<group>";
 		};
 		885F8082539C1660EAD0D19F /* Frameworks */ = {
